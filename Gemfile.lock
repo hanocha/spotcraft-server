@@ -1,6 +1,19 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    aws-eventstream (1.2.0)
+    aws-partitions (1.510.0)
+    aws-sdk-core (3.121.1)
+      aws-eventstream (~> 1, >= 1.0.2)
+      aws-partitions (~> 1, >= 1.239.0)
+      aws-sigv4 (~> 1.1)
+      jmespath (~> 1.0)
+    aws-sdk-ec2 (1.265.0)
+      aws-sdk-core (~> 3, >= 3.120.0)
+      aws-sigv4 (~> 1.1)
+    aws-sigv4 (1.4.0)
+      aws-eventstream (~> 1, >= 1.0.2)
+    jmespath (1.4.0)
     mustermann (1.1.1)
       ruby2_keywords (~> 0.0.1)
     nio4r (2.5.8)
@@ -22,6 +35,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  aws-sdk-ec2
   puma
   sinatra
 
