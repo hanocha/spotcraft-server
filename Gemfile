@@ -8,3 +8,4 @@ gem "sinatra"
 gem "puma"
 gem "rexml"
 gem 'aws-sdk-ec2'
+gem 'rubocop', require: false
