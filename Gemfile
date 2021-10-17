@@ -4,8 +4,8 @@ source "https://rubygems.org"
 
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
-gem "sinatra"
+gem 'aws-sdk-ec2'
 gem "puma"
 gem "rexml"
-gem 'aws-sdk-ec2'
 gem 'rubocop', require: false
+gem "sinatra"
