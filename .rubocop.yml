@@ -2,3 +2,13 @@ inherit_from: .rubocop_todo.yml
 
 Layout/FirstHashElementIndentation:
   EnforcedStyle: consistent
+
+Metrics/MethodLength:
+  Max: 32
+
+Style/Documentation:
+  Exclude:
+    - 'spec/**/*'
+    - 'test/**/*'
+    - 'lib/aws_client.rb'
+    - 'lib/aws_client/ec2.rb'
