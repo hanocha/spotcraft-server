@@ -55,7 +55,7 @@ module AwsClient
     end
 
     def self.create_spot_instance_by_request_spot_instances
-      res = client.request_spot_instances({
+      _res = client.request_spot_instances({
         instance_count: 1,
         launch_specification: {
           image_id: "ami-0701e21c502689c31",
