@@ -20,17 +20,6 @@ Style/Documentation:
     - 'lib/aws_client.rb'
     - 'lib/aws_client/ec2.rb'
 
-# Offense count: 4
-# Cop supports --auto-correct.
-# Configuration parameters: EnforcedStyle.
-# SupportedStyles: always, always_true, never
-Style/FrozenStringLiteralComment:
-  Exclude:
-    - 'app.rb'
-    - 'config.ru'
-    - 'lib/aws_client.rb'
-    - 'lib/aws_client/ec2.rb'
-
 # Offense count: 1
 # Cop supports --auto-correct.
 # Configuration parameters: PreferredDelimiters.
